@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono';
+}
+
+
+/* mobile design 393 max */
+
+@media only screen and (min-width: 375px) {
+
+    @font-face {
+        font-family: 'Roboto Mono';
+            src: url('fonts/robotomono-regular-webfont.eot');
+            src: url('fonts/robotomono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+                url('fonts/robotomono-regular-webfont.woff2') format('woff2'),
+                url('fonts/robotomono-regular-webfont.woff') format('woff'),
+                url('fonts/robotomono-regular-webfont.ttf') format('truetype'),
+                url('fonts/robotomono-regular-webfont.svg#roboto_monoregular') format('svg');
+    }
+
+
+    header {
+        background-image: url();
+        height: 333px;
+        background-size: cover;
+        background-position: right;
+        margin-top: 0px;
+        background-repeat: no-repeat;
+        background-color: #fffff1;
+    }
+
+    footer {
+        background-color: #fffff1;
+        padding: 50px;
+        text-align: center;
+    }
+
+    .footerlinks {
+        background-color: #fffff1;
+        text-align: center;
+        padding: 50px;
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: none;
+        color: #111111;
+        background-color: transparent;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: none;
+        background-color: transparent;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    a {
+        display: inline-block;
+        color: #111111;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        display: inline-block;
+        color: #ADD8E6;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    .checkbtn {
+        font-size: 30px;
+        color: #111111;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+    
+    #check {
+        display: none;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fffff1;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: right;
+        transition: all .5s;
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color: #f8f8f8;
+        border-bottom: 1px solid #ADD8E6;
+        background-color: transparent;
+        font-weight: none;
+        font-size: 20px;
+    }
+
+    ul {
+        display: none;
+    }
+    
+    #check:checked ~ ul {
+        display: block;
+    }
+
+    body {
+        font-size: 18px;
+        font-weight: none;
+        color: #111111;
+        background-color: transparent;
+    }
+
+    .logo img {
+        margin-top: 25px;
+        margin-left: 25px;
+        float: left;
+        width: 150px;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .general {
+        background-color: #f8f8f8;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tbl {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #111;
+        padding: 25px;
+        background-color: transparent;
+
+    }
+
+    .btn {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #111;
+        padding: 25px;
+        background-color: transparent;
+        width: 222px;
+    }
+
+    .inquiry {
+        background-color: #ADD8E6;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+/* mobile design 393 max end */
+
+/* full screen 1366 min */
+
+@media only screen and (min-width: 1363px) {
+
+        .checkbtn {
+            display: none;
+        }
+
+        header {
+            background-image: url();
+            height: 638px;
+            background-size: cover;
+            background-position: right;
+            margin-top: 0px;
+            background-color: #fffff1;
+        }
+
+        footer {
+            background-color: #fffff1;
+            padding-top: 50px;
+            padding-left: 150px;
+            text-align: left;
+        }
+
+        .footerlinks {
+            background-color: #fffff1;
+            text-align: right;
+            padding-right: 150px;
+            padding-bottom: 50px;
+            padding-top: 0px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: none;
+            color: #ADD8E6;
+            background-color: transparent;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: none;
+            background-color: transparent;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: none;
+        }
+
+        h4 {
+            font-size: 18px;
+            font-weight: none;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: none;
+        }
+
+        a {
+            display: inline-block;
+            color: #ADD8E6;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: none;
+            text-decoration: none;
+        }
+
+        a:hover {
+            display: inline-block;
+            color: #111111;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: none;
+            text-decoration: none;
+        }
+
+        nav ul {
+            position: absolute;
+            float: right;
+            list-style-type: none;
+            background-color: transparent;
+            padding: 0;
+            margin-top: 25px;
+            margin-right: 150px;
+            display: block;
+            font-size: 18px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            color: #ADD8E6;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: none;
+            text-decoration: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #111111;
+            padding: 5px 10px;
+            border: 0px solid #f8f8f8;
+            transition: 0.5s ease;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: #ADD8E6;
+            padding: 5px 10px;
+            border: 0px solid #000;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: none;
+        }
+
+        .logo img {
+            width: 250px;
+            height: auto;
+            background-color: transparent;
+            margin-left: 150px;
+        }
+
+        .general {
+            background-color: #fffff1;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            padding-left: 350px;
+            padding-right: 350px;
+        }
+
+        .tbl {
+            border-width: 1px;
+            border-style: solid;
+            border-color: #111;
+            padding: 25px;
+            background-color: transparent;
+
+        }
+
+        .btn {
+            border-width: 1px;
+            border-style: solid;
+            border-color: #111111;
+            padding: 25px;
+            background-color: transparent;
+            width: 222px;
+
+        }
+
+        .inquiry {
+            background-color: #ADD8E6;
+            padding-top: 75px;
+            padding-bottom: 75px;
+            padding-left: 350px;
+            padding-right: 350px;
+        }
+
+}
+/* full screen 1920 min */
