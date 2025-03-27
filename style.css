@@ -193,7 +193,7 @@
     }
 
     .inquiry {
-        background-color: #111111;
+        background-color: red;
         padding-top: 25px;
         padding-bottom: 25px;
         padding-left: 50px;
@@ -359,7 +359,7 @@
         }
 
         .inquiry {
-            background-color: #111111;
+            background-color: red;
             padding-top: 75px;
             padding-bottom: 75px;
             padding-left: 350px;
