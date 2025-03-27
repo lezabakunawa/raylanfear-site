@@ -21,7 +21,7 @@
 
 
     header {
-        background-image: url();
+        background-image: url(imgs/website\ banner.jpg);
         height: 333px;
         background-size: cover;
         background-position: right;
@@ -213,7 +213,7 @@
         }
 
         header {
-            background-image: url();
+            background-image: url(imgs/website\ banner.jpg);
             height: 638px;
             background-size: cover;
             background-position: right;
